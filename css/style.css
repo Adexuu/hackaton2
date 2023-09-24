@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    background-image: url("/img/GoodOmens.png");
+    background-position: center;
+    background-size: cover;
+    /* height: 80vw; */
+    height: clamp(200px, 100vw, 100vh);
+    position: relative;
+
+}
+
+.contenedor-titulo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.contenedor-saludo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+
+
+    background-color: #7299FE80;
+    padding: 10px;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.sobremi{
+    height: clamp(200px, 100vw, 100vh);
+    background-color: #7299FE;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sobremi-titulo{
+    color: #1D06A7;
+    text-align: center;
+}
+
+.sobremi-contenido{
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.sobremi-vercv{
+    font-size: 20px;
+    width: 20%;
+    height: 5%;
+    align-self: center;
+    color: white;
+    background-color: #D16FFF;
+
+
+}
+
+.skills{
+    height: clamp(200px, 100vw, 100vh);
+    background-color: #9022FF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper-mis-skills div{
+    color:white;
+    margin-bottom: 20px;
+}
+
+.wrapper-mis-skills section{
+    margin-bottom: 20px;
+}
+
+
+progress{
+    appearance: none;
+    width: 100%;
+}
+
+.wrapper-mis-skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    gap: 30px;
+    padding: 10%;
+}
+
+.skills-titulo{
+    color: #26CC4B;
+    text-align: center;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 10em;
+    background: rgb(217, 217, 217);
+  }
+  
+  progress::-webkit-progress-value {
+    border-radius: 10em;
+    background: #57EFF9;
+  }
+
+.portafolio{
+    height: clamp(200px, 100vw, 100vh);
+    background-color: #FFD233;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portafolio-titulo{
+    color: #00AD84;
+    text-align: center;
+}
+
+.wrapper-portafolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.portafolio img{
+    width: 80%;
+    margin-bottom: 30px;
+    border: 2px solid white;
+}
+
+.clientes img{
+    width: 100px;
+    
+}
+
+.clientes {
+    height: clamp(200px, 100vw, 100vh);
+    background-color: #3F4E62;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clientes-titulo {
+    color: #ADFF28;
+    text-align: center;
+}
+
+.wrapper-clientes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.wrapper-contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 20px;
+}
